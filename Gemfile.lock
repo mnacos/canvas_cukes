@@ -2,7 +2,13 @@ PATH
   remote: .
   specs:
     canvas_cukes (0.0.1)
+      capybara
+      capybara-webkit
+      cucumber-rails
+      database_cleaner
+      factory_girl_rails
       rails (~> 3.2.12)
+      rspec-rails
 
 GEM
   remote: http://rubygems.org/
@@ -146,11 +152,5 @@ PLATFORMS
 
 DEPENDENCIES
   canvas_cukes!
-  capybara
-  capybara-webkit
-  cucumber-rails
-  database_cleaner
-  factory_girl_rails
   jquery-rails
-  rspec-rails
   sqlite3
