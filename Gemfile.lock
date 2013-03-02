@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    canvas_cukes (0.0.3)
+    canvas_cukes (0.0.4)
       capybara
       capybara-webkit
       cucumber-rails
