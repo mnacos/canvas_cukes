@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Michael Nacos"]
   s.email       = ["michael@github.leemail.me"]
   s.homepage    = "https://github.com/mnacos/canvas_cukes"
-  s.summary     = "cucumber support for FB canvas apps"
-  s.description = "provides a test environment for FB canvas rails apps"
+  s.summary     = "Cucumber support for FB canvas apps"
+  s.description = "Provides a test environment for FB canvas rails apps"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
 
