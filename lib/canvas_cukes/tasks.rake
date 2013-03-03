@@ -12,7 +12,7 @@ namespace :canvas do
     Cucumber::Rake::Task.new(:cukes) do |t|
       t.fork = true
       t.cucumber_opts = ['--format',(ENV['CUCUMBER_FORMAT'] || 'pretty')]
-      t.cucumber_opts = ['--tags', 'canvas']
+      t.cucumber_opts = ['--tags', '@canvas']
     end
 
   rescue LoadError
