@@ -1,3 +1,11 @@
 = CanvasCukes
 
-This project rocks and uses MIT-LICENSE.
+This gem requires the following environment variables to be set (test Rails env):
+
+    CANVAS_CUKES_FORWARD_COMMAND: 'forward 7787 canvas-cukes'
+    CANVAS_CUKES_CANVAS_URL: https://apps.facebook.com/canvas-cukes
+    CANVAS_CUKES_STANDALONE_URL: https://canvas-cukes-___.fwd.wf
+    CANVAS_CUKES_FACEBOOK_NAMESPACE: canvas-cukes
+    CANVAS_CUKES_FACEBOOK_APP_ID: 468_____________
+    CANVAS_CUKES_FACEBOOK_APP_SECRET: 4c87______________________
+
